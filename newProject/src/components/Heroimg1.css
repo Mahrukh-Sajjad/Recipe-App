@@ -1,0 +1,41 @@
+.heroimg {
+  background: url("https://images.unsplash.com/photo-1617957718614-8c23f060c2d0?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  height: 600px;
+  /* background-repeat: no-repeat; */
+  /* object-fit: cover; */
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  justify-content: center;
+}
+img {
+  margin-top: 10px;
+  height: 400px;
+  width: 400px;
+}
+.content {
+  height: 400px;
+  width: 300px;
+  background-color: rgb(223, 80, 14);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+.content h1 {
+  text-align: center;
+  color: rgb(143, 30, 10);
+  font-size: 40px;
+}
+.content p {
+  text-align: center;
+  color: rgb(95, 36, 1);
+  font-size: 20px;
+}

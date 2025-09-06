@@ -1,0 +1,36 @@
+.hero {
+  height: 500px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.hero .left {
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  align-items: center;
+}
+
+.hero .left h1 {
+  color: rgb(243, 120, 48);
+  font-size: 50px;
+  text-align: center;
+}
+.hero .left p {
+  color: rgb(175, 83, 30);
+  text-align: center;
+  font-size: 18px;
+}
+.hero .right img {
+  height: 485px;
+  width: 680px;
+}
+button {
+  padding: 10px;
+  background-color: rgb(199, 78, 9);
+  width: 200px;
+  border-radius: 10px;
+  font-size: 16px;
+}

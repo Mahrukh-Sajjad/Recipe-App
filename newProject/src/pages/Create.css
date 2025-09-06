@@ -1,0 +1,51 @@
+.create-main {
+  height: 700px;
+  width: 100%;
+  background: url("https://plus.unsplash.com/premium_photo-1701795331238-b028a0aa5026?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.create-main .input-form {
+  height: 500px;
+  width: 700px;
+  background-color: rgb(235, 139, 75);
+  border-radius: 10px;
+  display: flex;
+  gap: 40px;
+}
+.input-form img {
+  height: 500px;
+  width: 300px;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-radius: 10px;
+}
+
+.create-main .input-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+button {
+  padding: 5px;
+  margin-top: 5px;
+  margin-left: 35px;
+}
+h1 {
+  color: rgb(160, 41, 4);
+}
+input {
+  padding: 10px;
+  border-radius: 2px;
+  border: 2px solid rgb(160, 41, 4);
+}
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(160, 41, 4);
+}

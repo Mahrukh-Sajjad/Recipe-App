@@ -1,0 +1,34 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.SRecipe {
+  height: 600px;
+  background: url("https://plus.unsplash.com/premium_photo-1701795331238-b028a0aa5026?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 300px;
+}
+.RecipeForm {
+  display: flex;
+  gap: 20px;
+  background-color: rgb(238, 186, 89);
+  padding: 10px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+img {
+  height: 500px;
+  width: 300px;
+}
+h3,
+p {
+  color: rgb(172, 58, 5);
+}
